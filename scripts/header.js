@@ -29,7 +29,7 @@ window.onload = function() {
                                 aria-expanded="false">Объявления</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="./add.html">Добавить объявление</a></li>
-                                <li><a class="dropdown-item" href="#">Поиск по объявлению</a></li>
+                                <li><a class="dropdown-item" href="./search.html">Поиск по объявлению</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -55,5 +55,5 @@ window.onload = function() {
     document.body.innerHTML += `<footer class="border-bottom bg-primary mt-3">
     <p class="text-white p-3">GET PET BACK © Copyright, 2022</p>
     <p class="text-white p-3">Все права защищены</p>
-  </footer>`
+  </footer>`;
 }
