@@ -52,4 +52,8 @@ window.onload = function() {
     if (page == "index.html") {
         document.getElementById("gotoMain").classList.add("active");
     }
+    document.body.innerHTML += `<footer class="border-bottom bg-primary mt-3">
+    <p class="text-white p-3">GET PET BACK © Copyright, 2022</p>
+    <p class="text-white p-3">Все права защищены</p>
+  </footer>`
 }
